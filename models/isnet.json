@@ -1,0 +1,28 @@
+{
+ "model": "isnet-general-use",
+ "source": "https://github.com/xuebinqin/DIS (Apache-2.0), file from rembg releases v0.0.0",
+ "size": 178648008,
+ "sha256": "60920e99c45464f2ba57bee2ad08c919a52bbf852739e96947fbb4358c0d964a",
+ "parts": [
+  {
+   "file": "isnet-1.bin",
+   "size": 44662002,
+   "sha256": "13c36973ed31213626766631e1dc331b447aaff43d564f4e998bb030475f001b"
+  },
+  {
+   "file": "isnet-2.bin",
+   "size": 44662002,
+   "sha256": "56418100aef8216be425db0843846385389226a8aa132d5850ba0f491c929491"
+  },
+  {
+   "file": "isnet-3.bin",
+   "size": 44662002,
+   "sha256": "aa2e76971bf800d06cc4f7200421919b9e4ef28f7b63b48362f4e322910f3843"
+  },
+  {
+   "file": "isnet-4.bin",
+   "size": 44662002,
+   "sha256": "f61701544976c4cce0466e67971f95f4357eaec6679df574491ca12f4f4295fa"
+  }
+ ]
+}
