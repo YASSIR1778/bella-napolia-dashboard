@@ -1,5 +1,7 @@
-// Shows the agent team's notifications on the owner's phone, and opens the
-// dashboard's agent inbox when one is tapped.
+// Shows the owner's notifications on their phone (the agent team's, the
+// café's alerts, a guest's drink asked from the till), and opens the
+// dashboard's agent inbox when one is tapped: the guest request bar shows on
+// every page.
 self.addEventListener('push', (event) => {
   let msg = { title: 'Bella Napolia', body: '' };
   try {
@@ -15,6 +17,8 @@ self.addEventListener('push', (event) => {
       dir: 'auto',
       lang: 'ar',
       tag: msg.title,
+      // A second request with the same title still rings, not only replaces the first.
+      renotify: true,
     }),
   );
 });
