@@ -1,0 +1,1 @@
+var e=`/bella-napolia-dashboard/assets/pdf.worker.min-CjEcRF4W.mjs`;export{e as default};
