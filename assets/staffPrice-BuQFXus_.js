@@ -1,0 +1,1 @@
+var e=e=>e.staffPricePct??50,t=e=>e.staffFree??{perShift:1,categoryIds:[`cafe`]};export{e as n,t};
