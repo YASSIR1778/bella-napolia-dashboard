@@ -1,0 +1,1 @@
+var e=()=>new Date().toLocaleDateString(`en-CA`,{timeZone:`Africa/Casablanca`}),t=e=>e===`ar`?`ar-MA-u-nu-latn`:`fr-MA`,n=(e,n,r=`long`)=>new Date(Date.UTC(2024,0,e)).toLocaleDateString(t(n),{weekday:r,timeZone:`UTC`});export{e as n,n as t};
